@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pay Yourself Smart</title>
+<meta name="description" content="Free calculators and plain-math articles on LLC vs S-Corp taxes for US small-business owners.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap">
+<style>
+:root { --paper:#f5f7f6; --surface:#fff; --ink:#17211f; --muted:#5b6865; --line:#d6dedb; --accent:#1d6b57; --accent-soft:#e2efe9; --radius:6px;
+  --font-display:"Source Serif 4", Georgia, serif; --font-body:"IBM Plex Sans", system-ui, sans-serif; }
+@media (prefers-color-scheme: dark) { :root { --paper:#0f1513; --surface:#161e1b; --ink:#e4ebe8; --muted:#9aa8a4; --line:#2b3633; --accent:#5cc3a4; --accent-soft:#173229; color-scheme:dark; } }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--paper); color:var(--ink); font:16px/1.6 var(--font-body); }
+.wrap { max-width:880px; margin:0 auto; padding:48px 16px 64px; display:flex; flex-direction:column; gap:32px; }
+.eyebrow { margin:0; font-size:13px; letter-spacing:.08em; text-transform:uppercase; color:var(--accent); font-weight:600; }
+h1 { margin:8px 0 0; font:700 clamp(32px,6vw,48px)/1.1 var(--font-display); }
+h2 { margin:0; font:600 21px/1.25 var(--font-display); }
+.lede { margin:12px 0 0; color:var(--muted); font-size:18px; max-width:60ch; }
+.cards { display:grid; grid-template-columns:repeat(auto-fit, minmax(260px, 1fr)); gap:16px; }
+.card { display:flex; flex-direction:column; gap:8px; background:var(--surface); border:1px solid var(--line); border-radius:var(--radius); padding:20px; color:inherit; text-decoration:none; }
+.card:hover { border-color:var(--accent); }
+.card p { margin:0; color:var(--muted); font-size:15px; }
+.card .go { color:var(--accent); font-weight:600; font-size:15px; }
+footer { color:var(--muted); font-size:14px; border-top:1px solid var(--line); padding-top:16px; }
+footer a { color:var(--muted); }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <p class="eyebrow">LLC vs S-Corp · 2026 tax year</p>
+    <h1>Pay Yourself Smart</h1>
+    <p class="lede">Free tools and plain-math guides that show US small-business owners when an S-Corp election actually saves money.</p>
+  </header>
+
+  <section class="cards" aria-label="Tools">
+    <a class="card" href="llc-vs-s-corp-calculator/">
+      <h2>LLC vs S-Corp Calculator</h2>
+      <p>Compare self-employment tax, payroll tax, the QBI deduction and S-Corp running costs, with a live break-even chart.</p>
+      <span class="go">Open the calculator →</span>
+    </a>
+  </section>
+
+  <section id="articles" class="cards" aria-label="Articles">
+    <a class="card" href="articles/s-corp-break-even/">
+      <h2>When Does an S-Corp Make Sense? 2026 Break-Even Math</h2>
+      <p>Why the quick 15.3% comparison overstates the savings by about half, and where the real break-even sits.</p>
+      <span class="go">Read the article →</span>
+    </a>
+  </section>
+
+  <footer>
+    Educational content only, not tax, legal or accounting advice. Built by <a href="https://github.com/w4v3y">Josue Banda</a> · <a href="https://github.com/w4v3y/pay-yourself-smart">Source code</a>
+  </footer>
+</main>
+</body>
+</html>

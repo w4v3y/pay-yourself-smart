@@ -1,0 +1,11 @@
+{
+  "name": "pay-yourself-smart",
+  "version": "1.0.0",
+  "description": "LLC vs S-Corp tax calculator and break-even analysis for the 2026 US tax year",
+  "private": true,
+  "scripts": {
+    "test": "node --test"
+  },
+  "author": "Josue Banda Aguirre",
+  "license": "MIT"
+}
